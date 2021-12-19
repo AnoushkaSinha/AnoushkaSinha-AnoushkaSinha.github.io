@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="left-top">
+                <i class="fa fa-navicon" ></i>
+                <i class="fa fa-folder-open"></i>
+                <i class="fa fa-cloud" ></i>
+                <i class="fa fa-archive" ></i>
+            </div>
+            <div class="left-below">
+                <i class="fa fa-bell" ></i>
+                <i class="fa fa-user" ></i>
+            </div>
+            
+            
+        </div>
+        <div class="main_content">
+            <form>
+                <i class="fa fa-search" style="background-color: transparent;"></i><input class="inp" type="text" name="search" placeholder="Search">
+            </form>
+            <div class="txt"><span class="txt1">Weather</span> <span class="txt2">Forecast</span>  <i style="margin-left: 200px ;" class="fa fa-gear" ></i></div>
+            <div class="mrow">
+                <img style="width: 270px; margin-top: -8px; " src="images/1.png" alt=""><img src="images/2.png" alt=""><img src="images/3.png" alt="">
+            </div> <br>
+            <div class="mrow">
+                <img style="width: 278px; margin: 2px 0 0 -5px;" src="images/4.png" alt=""><img src="images/5.png" alt=""><img src="images/6.png" alt="">
+            </div>
+
+        </div>
+        <div class="aside">
+            <i class="fas fa-sun" ></i> <br> <br>
+            <h4>It's hot today!</h4>
+            <div class="whitespace"></div>
+            <p style="font-size: 11px;">Be sure to grab a bottle <br> of cold water</p>
+            <br>
+            <h4>INFO</h4>
+            <br>
+            <div class="iconset">
+                <i class="fas fa-wind" ></i>
+                <i class="fas fa-tint"  ></i> 
+                <i class="fas fa-thermometer-half" ></i> <br>
+            </div>
+            <i class="fas fa-plus"> </i> <br><br>
+            
+            <h5>CITY</h5>
+            <table>
+                <tr><td rowspan="2"><i class="fas fa-cloud-showers-heavy city"  > </i> </td><td style="padding-top: 5px; font-size: 13px; vertical-align: bottom;"> Paris </td></tr>
+                <tr><td style=" font-size: 14px ;vertical-align: top;">17&deg; C</td></tr>
+            </table>
+            <table>
+                <tr><td rowspan="2"><i class="fas fa-umbrella city"  > </i> </td><td style="padding-top: 5px; font-size: 13px; vertical-align: bottom;"> London </td></tr>
+                <tr><td style=" font-size: 13px;vertical-align: top;">13&deg; C</td></tr>
+            </table>
+
+            <div><i class="fas fa-plus"> </i> </div>
+            <div style="text-align: center;"><i class="fa" style="padding: 6px; background-color: white;" > </i><i style="padding: 5px;background-color: rgba(255, 255, 255, 0.315);" class="fa" > </i> </div>
+    </div>
+</body>
+</html>
