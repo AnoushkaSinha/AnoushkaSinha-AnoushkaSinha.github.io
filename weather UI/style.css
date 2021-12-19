@@ -95,12 +95,12 @@ i.fa{
     color: rgb(209, 199, 199) !important;
     text-align: right;
 }
-.mrow{
+.row{
     display: flex;
     align-items:flex-start;
 }
-.mrow > img{
-    width: 120px ;
+.row > img{
+    width: 110px ;
 }
 .fa-sun {
     background-color: rgba(255, 255, 255, 0.25);
@@ -120,7 +120,7 @@ i.fa{
 }
 .fa-plus{
     margin-top: 10px;
-    /* background-color: rgba(255, 255, 255, 0.25); */
+  
     color: white;
     padding: 13px;
     font-size: 10px;
