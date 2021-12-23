@@ -1,0 +1,184 @@
+body * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(14, 13, 13);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container{
+    background-color: whitesmoke;
+    height: 88vh;
+    margin: 40px 240px;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: min-content;
+}
+.left , .left-top , .left-below{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+i.fa{
+    background-color: rgb(194, 189, 190);
+    font-size: 22px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 10px;
+    color: rgb(107, 107, 107);
+}
+
+.fa-cloud{
+    background-color: rgb(107, 107, 107) !important;
+    color: white !important;
+}
+
+.fa-bell{
+    background-color:rgb(243, 89, 0) !important;
+    color: white !important;
+}
+.left-top{
+    position: absolute;
+    top: 20px;
+}
+.left-below{
+    position: absolute;
+    bottom: 20px;
+}
+.main_content{
+    background-color: rgb(44, 20, 177);
+    width: 60%; 
+    height: auto;
+    position: relative;
+    border-radius: 16px;
+    left: 58px;
+    margin: 8px;
+    padding: 15px 30px;
+}
+.aside{
+    height: auto;
+    width: 32%;
+    background-color: rgb(39, 134, 243);
+    position: relative;
+    border-radius: 15px;
+    left: 58px;
+    margin: 8px;
+    padding: 30px 30px;
+    color: whitesmoke;
+}
+.inp{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: rgb(209, 199, 199);
+}
+.txt{
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(209, 199, 199);
+}
+.txt1{
+    font-weight: 500;
+}
+.txt .fa-gear{
+    display: inline-block;
+    background-color: transparent !important;
+    color: rgb(209, 199, 199) !important;
+    text-align: right;
+}
+.row{
+    display: flex;
+    align-items:flex-start;
+}
+.row > img{
+    width: 110px ;
+}
+.fa-sun {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    padding: 18px;
+    font-size: 28px;
+    border-radius: 9px;
+    margin-right: 5px;
+}
+ .iconset *{
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 9px;
+    margin-right: 5px;
+}
+.fa-plus{
+    margin-top: 10px;
+  
+    color: white;
+    padding: 13px;
+    font-size: 10px;
+    border-radius: 9px;
+    border: 2px dotted whitesmoke;
+}
+.whitespace{
+    margin: 6px ;
+}
+.city{
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 9px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.txtInfo{
+    display: inline-block; 
+    width:50px;
+}
+
+
+#ic2,#ic3,#ic5,#ic6{
+    background-image: url(images/image2.png);
+    width: 127px;
+    height: 127px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#ic3{
+    background-image: url(images/image3.png);
+}
+#ic5{
+    background-image: url(images/image5.png); 
+}
+#tmp , #hmd{
+    position: relative;
+    top: 62px;
+    left: 51px;
+    margin: auto;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgba(216, 195, 195, 0.945);
+}
+#ic6{
+    background-image: url(images/image6.png);
+    width: 130px;
+    height: 130px;
+}
+
+#inpK{
+    padding: 5px 10px;
+}
+
+
+
+
+
